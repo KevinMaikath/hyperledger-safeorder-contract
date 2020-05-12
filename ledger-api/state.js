@@ -39,7 +39,7 @@ class State {
      * Convert object to buffer containing JSON data serialization
      * Typically used before putState()ledger API
      * @param {Object} object to serialize
-     * @return {buffer} buffer with the data to store
+     * @return {Buffer} buffer with the data to store
      */
     static serialize(object) {
         return Buffer.from(JSON.stringify(object));

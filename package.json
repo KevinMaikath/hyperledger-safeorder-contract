@@ -1,7 +1,7 @@
 {
-    "name": "papernet-js",
+    "name": "hyperledger-safeorder-contract",
     "version": "0.0.1",
-    "description": "Papernet Contract",
+    "description": "Smart Contract for the Hyperledger-SafeOrder network",
     "main": "index.js",
     "engines": {
         "node": ">=8",
@@ -15,7 +15,7 @@
         "mocha": "mocha test --recursive"
     },
     "engineStrict": true,
-    "author": "hyperledger",
+    "author": "Kevin Maikath",
     "license": "Apache-2.0",
     "dependencies": {
         "fabric-contract-api": "^2.0.0",
