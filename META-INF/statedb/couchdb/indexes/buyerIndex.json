@@ -1,0 +1,8 @@
+{
+    "index": {
+        "fields": [ "buyerID"]
+    },
+    "ddoc": "buyerIndexDoc",
+    "name": "buyerIndex",
+    "type": "json"
+}
